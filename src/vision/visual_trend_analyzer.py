@@ -2,7 +2,7 @@ import os
 from collections import Counter, defaultdict
 import cv2
 import numpy as np
-from predict_clothing import predict_clothing, extract_color_features
+from .predict_clothing import predict_clothing, extract_color_features
 
 IMAGE_FOLDER = "data/images"
 

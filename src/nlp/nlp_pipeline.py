@@ -17,7 +17,7 @@ def run_nlp_pipeline():
 
     print("Loading dataset...")
 
-    df = pd.read_csv("data/nlp_raw/fashion_trend_dataset_2000_nlp_sithin.csv")
+    df = pd.read_csv("data/raw_data/nlp_data/fashion_trend_dataset_2000_nlp_sithin.csv")
 
     print("Cleaning text...")
     df["clean_text"] = df["text"].astype(str).apply(clean_text)
@@ -54,7 +54,7 @@ def run_nlp_pipeline():
     )
 
     print("Saving processed dataset...")
-    df.to_csv("data/nlp_processed/nlp_features.csv", index=False)
+    df.to_csv("data/processed_data/nlp_data/nlp_features.csv", index=False)
 
     print("NLP pipeline completed.")
 

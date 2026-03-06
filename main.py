@@ -1,38 +1,61 @@
+import os
+import pandas as pd
+
 from src.vision.color_analysis import run_color_analysis
 from src.vision.image_analyser_v2 import run_deep_feature_extraction
-import pandas as pd
+from src.features.feature_fusion import fuse_cv_nlp
+
+
+RAW_IMAGE_PATH = "data/raw_data/visual_data/raw_training_images"
+PROCESSED_VISUAL_PATH = "data/processed_data/visual_data/processed_visual_features"
 
 
 def run_cv_pipeline():
-    base_path = "data/images"
-    output_path = "data/images/features_extracted_images/"
+
+    print("Running CV pipeline...")
+
+    os.makedirs(PROCESSED_VISUAL_PATH, exist_ok=True)
 
     # 1️⃣ Color Features
-    color_df = run_color_analysis(base_path)
-    color_df.to_csv(output_path + "image_color_features.csv", index=False)
+    color_df = run_color_analysis(RAW_IMAGE_PATH)
+
+    color_output = os.path.join(
+        PROCESSED_VISUAL_PATH,
+        "image_color_features.csv"
+    )
+
+    color_df.to_csv(color_output, index=False)
 
     # 2️⃣ Deep Features
-    deep_df = run_deep_feature_extraction(base_path)
-    deep_df.to_csv(output_path + "image_deep_features.csv", index=False)
+    deep_df = run_deep_feature_extraction(RAW_IMAGE_PATH)
 
-    # 3️⃣ Merge
+    deep_output = os.path.join(
+        PROCESSED_VISUAL_PATH,
+        "image_deep_features.csv"
+    )
+
+    deep_df.to_csv(deep_output, index=False)
+    print("Color DF columns:", color_df.columns)
+    print("Deep DF columns:", deep_df.columns)
+    # 3️⃣ Merge both visual features
     final_df = pd.merge(color_df, deep_df, on="category")
-    final_df.to_csv(output_path + "final_cv_features.csv", index=False)
+
+    final_output = os.path.join(
+        PROCESSED_VISUAL_PATH,
+        "final_cv_features.csv"
+    )
+
+    final_df.to_csv(final_output, index=False)
 
     print("CV pipeline completed.")
 
 
 if __name__ == "__main__":
+
     run_cv_pipeline()
-
-
-# Feature fusion will be run separately after both CV and NLP pipelines have completed.
-from src.features.feature_fusion import fuse_cv_nlp
-
-if __name__ == "__main__":
 
     print("Running feature fusion...")
 
     fuse_cv_nlp()
 
-    print("Pipeline finished.")    
+    print("Full pipeline finished.")    

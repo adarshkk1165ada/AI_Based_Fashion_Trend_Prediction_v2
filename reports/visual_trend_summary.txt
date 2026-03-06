@@ -1,0 +1,195 @@
+Visual Trend Summary
+--------------------
+
+Color style definitions
+Pastel  : soft/light colors (high brightness, low saturation)
+Dark    : low brightness colors
+Bright  : vivid colors with high saturation
+
+Clothing distribution
+
+kurti       : 12%
+streetwear  : 31%
+saree       : 57%
+
+Color style trends per category
+
+KURTI
+pastel : 19%
+dark   : 29%
+bright : 1%
+
+STREETWEAR
+pastel : 16%
+dark   : 29%
+bright : 4%
+
+SAREE
+pastel : 28%
+dark   : 25%
+bright : 7%
+
+
+Recent Image Analysis (latest 20 images)
+----------------------------------------
+
+Image: saree_fashion_45.jpg
+Clothing type : saree
+Confidence    : 0.41
+Color style
+pastel ratio : 0.38
+dark ratio   : 0.00
+bright ratio : 0.24
+----------------------------------------
+Image: saree_fashion_46.jpg
+Clothing type : streetwear
+Confidence    : 0.42
+Color style
+pastel ratio : 0.19
+dark ratio   : 0.40
+bright ratio : 0.00
+----------------------------------------
+Image: saree_fashion_47.jpg
+Clothing type : saree
+Confidence    : 0.48
+Color style
+pastel ratio : 0.26
+dark ratio   : 0.18
+bright ratio : 0.00
+----------------------------------------
+Image: saree_fashion_48.jpg
+Clothing type : kurti
+Confidence    : 0.37
+Color style
+pastel ratio : 0.01
+dark ratio   : 0.95
+bright ratio : 0.00
+----------------------------------------
+Image: saree_fashion_49.jpg
+Clothing type : saree
+Confidence    : 0.48
+Color style
+pastel ratio : 0.00
+dark ratio   : 0.40
+bright ratio : 0.12
+----------------------------------------
+Image: saree_fashion_5.jpg
+Clothing type : streetwear
+Confidence    : 0.40
+Color style
+pastel ratio : 0.04
+dark ratio   : 0.33
+bright ratio : 0.08
+----------------------------------------
+Image: saree_fashion_6.jpg
+Clothing type : saree
+Confidence    : 0.46
+Color style
+pastel ratio : 0.00
+dark ratio   : 0.87
+bright ratio : 0.02
+----------------------------------------
+Image: saree_fashion_7.jpg
+Clothing type : saree
+Confidence    : 0.40
+Color style
+pastel ratio : 0.15
+dark ratio   : 0.57
+bright ratio : 0.00
+----------------------------------------
+Image: saree_fashion_8.jpg
+Clothing type : streetwear
+Confidence    : 0.50
+Color style
+pastel ratio : 0.13
+dark ratio   : 0.38
+bright ratio : 0.00
+----------------------------------------
+Image: saree_fashion_9.jpg
+Clothing type : streetwear
+Confidence    : 0.63
+Color style
+pastel ratio : 0.04
+dark ratio   : 0.57
+bright ratio : 0.01
+----------------------------------------
+Image: 8b2a58354fa3cd6f408a9c176deb4e8e.jpg
+Clothing type : streetwear
+Confidence    : 0.55
+Color style
+pastel ratio : 0.19
+dark ratio   : 0.38
+bright ratio : 0.00
+----------------------------------------
+Image: streetwear_india_0.jpg
+Clothing type : streetwear
+Confidence    : 0.55
+Color style
+pastel ratio : 0.19
+dark ratio   : 0.38
+bright ratio : 0.00
+----------------------------------------
+Image: streetwear_india_1.jpg
+Clothing type : streetwear
+Confidence    : 0.55
+Color style
+pastel ratio : 0.19
+dark ratio   : 0.38
+bright ratio : 0.00
+----------------------------------------
+Image: streetwear_india_2.jpg
+Clothing type : streetwear
+Confidence    : 0.61
+Color style
+pastel ratio : 0.13
+dark ratio   : 0.38
+bright ratio : 0.00
+----------------------------------------
+Image: streetwear_india_3.jpg
+Clothing type : streetwear
+Confidence    : 0.70
+Color style
+pastel ratio : 0.54
+dark ratio   : 0.07
+bright ratio : 0.03
+----------------------------------------
+Image: streetwear_india_4.jpg
+Clothing type : streetwear
+Confidence    : 0.64
+Color style
+pastel ratio : 0.06
+dark ratio   : 0.64
+bright ratio : 0.00
+----------------------------------------
+Image: streetwear_india_5.jpg
+Clothing type : streetwear
+Confidence    : 0.54
+Color style
+pastel ratio : 0.20
+dark ratio   : 0.31
+bright ratio : 0.01
+----------------------------------------
+Image: streetwear_india_6.jpg
+Clothing type : streetwear
+Confidence    : 0.55
+Color style
+pastel ratio : 0.24
+dark ratio   : 0.19
+bright ratio : 0.19
+----------------------------------------
+Image: streetwear_india_7.jpg
+Clothing type : kurti
+Confidence    : 0.39
+Color style
+pastel ratio : 0.29
+dark ratio   : 0.10
+bright ratio : 0.10
+----------------------------------------
+Image: streetwear_india_8.jpg
+Clothing type : streetwear
+Confidence    : 0.70
+Color style
+pastel ratio : 0.15
+dark ratio   : 0.48
+bright ratio : 0.01
+----------------------------------------
